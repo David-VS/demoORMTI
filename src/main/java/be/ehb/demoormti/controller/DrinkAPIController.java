@@ -13,12 +13,12 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/drinks")
-public class DrinkController {
+public class DrinkAPIController {
 
     private DrinkDao myDrinkDao;
 
     @Autowired
-    public DrinkController(DrinkDao myDrinkDao) {
+    public DrinkAPIController(DrinkDao myDrinkDao) {
         this.myDrinkDao = myDrinkDao;
     }
 
